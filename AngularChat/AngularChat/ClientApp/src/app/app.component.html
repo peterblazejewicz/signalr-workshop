@@ -4,6 +4,9 @@
       <app-nav-menu></app-nav-menu>
     </div>
     <div class='col-sm-9 body-content'>
+      <ul>
+        <li *ngFor="let message of messages">{{message}}</li>
+      </ul>
       <router-outlet></router-outlet>
     </div>
   </div>

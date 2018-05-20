@@ -1,6 +1,5 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-
-import { HubConnectionBuilder, HubConnection } from '@aspnet/signalr';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { HubConnection, HubConnectionBuilder } from '@aspnet/signalr';
 
 @Component({
   selector: 'app-root',

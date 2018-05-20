@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, Inject } from '@angular/core';
-import { WeatherForecast } from '../model/weather-forecast';
+import { WeatherForecast } from '@app/model/weather-forecast';
 
 @Component({
   selector: 'app-fetch-data',
@@ -17,6 +17,6 @@ export class FetchDataComponent {
           this.forecasts = result;
         },
         error => console.error(error),
-      );
+    );
   }
 }
